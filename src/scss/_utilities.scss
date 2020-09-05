@@ -1,0 +1,62 @@
+.primary-overlay {
+  background-color: $primary-overlay;
+}
+ 
+ul {
+  list-style: none;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.dark-overlay {
+  background-color: $dark-overlay;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.progress {
+  height: 7px;
+}
+
+.deleted-text {
+  text-decoration: line-through;
+}
+
+.border-hover-primary {
+  border-bottom: 2px transparent solid;
+  transition: all $animation-speed;
+}
+
+.box-shadow {
+  box-shadow: 0 7px 25px -8px rgba(150,170,180,0.5) !important;
+}
+
+.transition {
+  transition: all $animation-speed ease;
+}
+
+// Social Media Background color
+.bg-linkedin {
+  background: $linkedin-color;
+  color: #fff;
+}
+
+.bg-instagram {
+  background: $instagram-color;
+}
+
+.bg-twitter {
+  background: $twitter-color;
+}

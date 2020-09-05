@@ -1,0 +1,13 @@
+.service-icon {
+  width: 5.5rem;
+  height: 5.5rem;
+  line-height: 7rem;
+  border-radius: 50%;
+}
+
+.slider {
+  direction: ltr;
+  .blockquote-footer {
+    direction: rtl;
+  }
+}

@@ -1,0 +1,40 @@
+header.header {
+  height: 100vh;
+  width: 100%; }
+  header.header #header-top-menu {
+    z-index: 2; }
+  header.header .dark-overlay {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 94%;
+    width: 100%; }
+  header.header .navbar {
+    z-index: 1; }
+    header.header .navbar .navbar-toggler {
+      cursor: pointer !important;
+      outline: none; }
+    header.header .navbar .main-links {
+      border-left: 2px solid #828282; }
+    header.header .navbar .nav-item {
+      margin-left: 0.3rem; }
+  header.header #showcase {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw; }
+    header.header #showcase h1 {
+      font-size: 3rem;
+      font-weight: bold; }
+
+header#main-header {
+  background: url(../img/shop.jpg) no-repeat center center/cover; }
+
+header#about-header {
+  background: url(../img/section/about.jpg) no-repeat fixed center/cover;
+  height: 75vh; }
+  header#about-header .dark-overlay {
+    height: 71vh !important; }
+  header#about-header #showcase {
+    height: 75vh; }

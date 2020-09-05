@@ -1,0 +1,110 @@
+.form-control {
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+#newsletter {
+  input[type="email"] {
+    color: #fff;
+    border-color: #fff;
+    &::placeholder {
+      color: #eee !important;
+    }
+
+    &:focus {
+      background: $light-overlay;
+      border-color: $light-color;
+      color: #fff !important;
+    }
+  }
+}
+
+#sign-up-section .row,
+#login-section .row {
+  -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+#sign-up,
+#login {
+  background: #fff;
+  .sign-up-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .icon {
+    font-weight: 100;
+    text-align: center;
+  }
+
+  p {
+    color: #6c7476;
+  }
+
+  .form-group {
+    position: relative;
+    margin: 1rem 0 !important;
+    &:nth-child(odd) {
+      margin-left: 2rem !important;
+    }
+
+    label {
+      position: absolute;
+      color: $secondary-color;
+      top: 2px;
+      right: 5px;
+      transition: all 0.3s;
+    }
+
+    input {
+      position: relative;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #6c7476;
+      padding-bottom: 0.6rem;
+      width: 100%;
+
+      &:focus + label,
+      &:not(:placeholder-shown) + label {
+        top: -20px;
+        right: -5px;
+        transform: scale(0.85);
+      }
+
+      &:focus {
+        border-color: $bg-primary;
+      }
+
+      &:not(:placeholder-shown):valid + label {
+        color: $bg-primary;
+      }
+    }
+  }
+
+  .bg-form {
+    width: 100%;
+    height: 100%;
+  }
+
+  .forgot-password {
+    color: #6c7476;
+    transition: all 0.3s;
+
+    &:hover {
+      color: darken($color: #6c7476, $amount: 20);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #sign-up .form-group:nth-child(odd) {
+    margin-left: 0 !important;
+  }
+}
+
+#login .form-group {
+  width: 100%;
+}

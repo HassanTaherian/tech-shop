@@ -1,0 +1,34 @@
+#blog {
+  .comment {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.25rem 1.5rem;
+  }
+
+  .card-post {
+    overflow: hidden;
+    
+    .card-img-top {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    &::after {
+      content: "";
+      position: absolute;
+      top: -800px;
+      left: -800px;
+      width: 150%;
+      height: 150%;
+      background: rgba($color: #333, $alpha: 0.4);
+      z-index: 1;
+      transform: rotate(135deg);
+      transition: all 0.5s;
+    }
+    
+    &:hover::after {
+      top: -120px;
+      left: -120px;
+    }
+  }
+}

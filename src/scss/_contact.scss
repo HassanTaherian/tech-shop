@@ -1,0 +1,84 @@
+.card {
+  border-radius: 0 !important;
+}
+
+.info-item {
+  font-size: 1.3rem;
+  color: #eee;
+}
+
+.info {
+  margin: auto 0;
+  margin-left: -10rem;
+  z-index: 1;
+}
+
+.form {
+  padding-right: 10rem !important;
+}
+
+.form-control {
+  &:focus {
+    border-color: $bg-primary !important;
+    color: #555 !important;
+  }
+}
+
+#contact {
+  .info .card {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .form {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+}
+
+@media (max-width: 992px) {
+  .form {
+    padding-right: 3rem !important;
+  }
+
+  .info {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: -3rem !important;
+  }
+}
+
+#contact {
+  .media-icons a {
+    color: #333;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 45px;
+    text-align: center;
+    background: $light-color;
+    transition: all 0.5s;
+  
+    &.telegram:hover {
+      background-color: #497799;
+    }
+    &.instagram:hover {
+      background-color: #E1306C;
+    }
+  
+
+    &.google:hover {
+      background-color: #F4B400 !important;
+    }
+
+    &.slack:hover {
+      background-color: #2EB67D;
+    }
+  
+    &:hover {
+      color: $light-color !important;
+      background: $bg-primary;
+      i {
+        transform: scale(1.3);
+      }
+    }
+  }
+}

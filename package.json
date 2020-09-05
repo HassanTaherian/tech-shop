@@ -1,0 +1,22 @@
+{
+  "name": "tech-shop",
+  "version": "1.0.0",
+  "description": "Starter package for setup bootstrap, sass, gulp and font awesome",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Hassan Taherian",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

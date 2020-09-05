@@ -1,0 +1,32 @@
+.list-img {
+  max-width: 70px !important;
+}
+
+input[type="number"] {
+  max-width: 75px !important;
+  margin: auto;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+thead {
+  display: table-header-group;
+}
+
+@media (max-width: 768px){
+  thead {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  table {
+    font-size: 0.85rem !important;
+  }
+
+  input[type="number"] {
+    padding: 0.2rem;
+  }
+}

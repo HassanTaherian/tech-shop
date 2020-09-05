@@ -1,0 +1,116 @@
+// Navbar toggler reset
+.navbar-toggler {
+  cursor: pointer !important;
+  outline: none !important;
+}
+
+// General style for headers
+header.header {
+  #header-top-menu {
+    z-index: 2;
+  }
+
+  height: 100vh;
+  width: 100%;
+
+  .dark-overlay {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 94%;
+    width: 100%;
+  }
+
+  .navbar {
+    z-index: 1;
+
+    .main-links {
+      border-left: 2px solid #828282;
+    }
+
+    .nav-item {
+      margin-left: 0.3rem;
+    }
+  }
+
+
+  #showcase {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 94vh;
+    width: 100vw;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+}
+
+// INDEX HEADER
+header#main-header {
+  background: url(../img/shop.jpg) no-repeat center center/cover;
+}
+
+// CAMERA HEADER
+#camera-header {
+  background: url(../img/showcase/camera.jpg) no-repeat center center/cover;
+}
+
+// MOBILE HEADER
+header#mobile-header {
+  background: url(../img/section/mobile.jpg) no-repeat fixed center/cover;
+}
+
+// SHOP LIST HEADER
+header#shop-list-header {
+  background: url(../img/section/cart.jpg) no-repeat center center/cover;
+}
+
+// ABOUT HEADER
+header#about-header {
+  background: url(../img/section/about.jpg) no-repeat fixed center/cover;
+}
+
+// CONTACT HEADER
+header#contact-header {
+  background: url(../img/section/contact.jpg) no-repeat fixed center/cover;
+}
+
+// 404 HEADER
+header#error-header {
+  .dark-overlay {
+    background: none;
+  }
+  background: url(../img/section/404.jpg) no-repeat center center/cover;
+}
+
+// Adjust height for not full-screen landing pages
+header#about-header,
+header#shop-list-header,
+header#contact-header {
+  height: 75vh;
+
+  .dark-overlay {
+    height: 69vh !important;
+  }
+
+  #showcase {
+    height: 75vh;
+  }
+}
+
+// Responsive Mode
+@media screen and (max-width: 768px) {
+  header.header {
+    height: 100vh;
+  }
+
+  header#shop-list-header .dark-overlay,
+  header#about-header .dark-overlay,
+  header#contact-header .dark-overlay {
+    height: 75vh !important;
+  }
+}
+

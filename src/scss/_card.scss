@@ -1,0 +1,54 @@
+.card {
+  border-radius: 5px;
+}
+
+.card-icons {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  transition: top 0.3s linear;
+}
+
+.card:hover .card-icons {
+  top: -10px;
+}
+
+.product-card {
+  box-shadow: 0 10px 30px -10px rgba(150,170,180,0.5);
+}
+
+.card-body {
+  z-index: 1;
+}
+
+.card-icons .icon {
+  background: #fff;
+  color: #333;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.3s;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+
+  &:hover {
+    background: $bg-primary;
+    color: #fff;
+  }
+}
+
+.card-primary-overlay {
+  background: $primary-overlay;
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card h5 {
+    font-size: 1rem;
+  }
+  .product-card .h4,
+  .product-card h4 {
+    font-size: 1.1rem;
+  }
+}

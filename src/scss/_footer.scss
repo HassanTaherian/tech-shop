@@ -1,0 +1,57 @@
+#main-footer {
+  .contact-info .info-item {
+    margin-bottom: 0.6rem;
+
+    .info-link {
+      border-bottom: solid transparent 2px;
+      transition: border-color, color, $animation-speed ease-out;
+
+      &:hover {
+        border-color: $bg-primary;
+        color: $bg-primary !important;
+      }
+    }
+  }
+
+  .list-unstyled {
+    .nav-link {
+      display: inline-block;
+      transition: color $animation-speed;
+    }
+
+    .nav-link:hover {
+      color: #fff !important;
+    }
+  }
+}
+
+.media-icons a {
+  color: #333;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  line-height: 85px;
+  background: $light-color;
+  transition: all $animation-speed;
+
+  &.twitter:hover {
+    background-color: $twitter-color;
+  }
+
+  &.instagram:hover {
+    background-color: $instagram-color;
+  }
+
+  &.linkedin:hover {
+    background: $linkedin-color;
+  }
+
+  &:hover {
+    color: $light-color !important;
+    background: $bg-primary;
+
+    i {
+      transform: scale(1.3);
+    }
+  }
+}

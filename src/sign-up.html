@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop | Home</title>
+  <link rel="stylesheet" href="css/vazir.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+
+
+<body id="home">
+  <header class="" id="account-header">
+    <section id="header-top-menu" class="py-0 d-none d-md-block bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <nav class="nav">
+              <li class="nav-item">
+                <a href="about.html" class="nav-link text-dark">
+                  درباره ما
+                </a>
+              </li>
+              <li class="nav-item text-dark">
+                <a href="#" class="nav-link text-dark">
+                  همکاری با ما
+                </a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-end">
+            <nav class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">
+                  سوالات متداول
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-dark">
+                  ارتباط با ما
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="dark-overlay">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            تک شاپ
+          </a>
+
+          <button class="navbar-toggler p-0 border-0">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="navbar-nav d-none d-md-flex mr-auto main-links pl-2">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a href="catagories.html" class="nav-link">محصولات</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="products.html" class="nav-link dropdown-toggle" data-toggle="dropdown">دسته بندی</a>
+
+              <ul class="dropdown-menu text-right">
+                <a href="mobile.html" class="dropdown-item">
+                  موبایل
+                </a>
+                <a href="laptop.html" class="dropdown-item">
+                  رایانه
+                </a>
+                <a href="console.html" class="dropdown-item">
+                  کنسول بازی
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a href="camera.html" class="dropdown-item">
+                  دوربین
+                </a>
+                <a href="monitor.html" class="dropdown-item">
+                  نمایشگر
+                </a>
+                <a href="speaker-headphone.html" class="dropdown-item">
+                  هدفون و بلندگو
+                </a>
+                <a href="spare.html" class="dropdown-item">
+                  لوازم جانبی
+                </a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">بلاگ</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-none d-md-flex pr-2">
+            <li class="nav-item ml-3 shop-bag">
+              <a href="shop-list.html" class="nav-link">
+                <i class="fa fa-shopping-bag fa-2x"></i>
+              </a>
+              <div class="notification badge badge-primary">
+                1
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a href="login.html" class="nav-link">
+                <i class="fa fa-user-o fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <ul id="mobile-side-menu" class="side-overlay">
+    <div class="overlay-content">
+      <a href="#" class="close-side-menu">&times;</a>
+      <div class="fix-right-top">
+        <div class="shop-bag">
+          <a href="shop-list.html" class="nav-link text-white">
+            <i class="fa fa-shopping-bag fa-2x"></i>
+          </a>
+          <div class="notification badge badge-primary">
+            1
+          </div>
+        </div>
+
+        <a href="login.html" class="nav-link text-white active">
+          <i class="fa fa-user-o fa-2x"></i>
+        </a>
+
+      </div>
+
+      <li class="side-item">
+        <a href="index.html" class="side-link nav-link border-hover-primary">خانه</a>
+      </li>
+      <li class="side-item">
+        <a href="catagories.html" class="side-link nav-link border-hover-primary">محصولات</a>
+      </li>
+      <li class="side-item">
+        <a href="blog.html" class="side-link nav-link border-hover-primary">بلاگ</a>
+      </li>
+
+      <li class="side-item">
+        <a href="about.html" class="side-link nav-link border-hover-primary">درباره ما</a>
+      </li>
+
+      <li class="side-item">
+        <a href="contact.html" class="side-link nav-link border-hover-primary">ارتباط با ما</a>
+      </li>
+    </div>
+  </ul>
+
+  <!-- Todo: Add a successful loged in page -->
+  <!-- Todo: Add a form validation -->
+  <section id="sign-up-section" class="text-dark py-5 px-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 pl-0">
+          <form id="sign-up" class="p-5">
+            <h1 class="sign-up-title">شروع به خرید کنید</h1>
+            <p class="my-3">حساب 100% رایگان خود را بسازید و از خرید لذت ببرید</p>
+
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="name" placeholder=" ">
+                  <label for="name">نام</label>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="username" placeholder=" ">
+                  <label for="username">نام کاربری</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" id="email" placeholder=" ">
+                  <label for="email">ایمیل</label>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="phone" placeholder=" ">
+                  <label for="phone">تلفن</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="password" id="password" placeholder=" ">
+                  <label for="password">رمز عبور</label>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="confirm-password" placeholder=" ">
+                  <label for="confirm-password">تایید رمز عبور</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" id="terms">
+
+              <label class="form-check-label mr-3" for="terms">
+                من با قوانین سایت موافقم
+              </label>
+            </div>
+
+            <button class="btn btn-primary btn-block mb-3 rounded">
+              ثبت نام
+            </button>
+
+            <div class="sign-up">
+              حساب کاربری دارید؟ <a href="login.html">ورود</a>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-6 d-none d-md-block bg-form bg-white pr-0">
+          <img src="img/section/login.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="bg-dark py-3 text-white text-center">
+    <div class="container">
+      <h4>
+        &copy; TechShop 2020
+      </h4>
+      <h6>تمامی حقوق محفوظ می باشد</h6>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+  <script src="js/jquery.smooth-scroll.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/side.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

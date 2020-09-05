@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop | Home</title>
+  <link rel="stylesheet" href="css/vazir.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body id="home">
+  <header class="header" id="about-header">
+    <section id="header-top-menu" class="py-0 d-none d-md-block bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <nav class="nav">
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  درباره ما
+                </a>
+              </li>
+              <li class="nav-item text-dark">
+                <a href="#" class="nav-link text-dark">
+                  همکاری با ما
+                </a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-end">
+            <nav class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">
+                  سوالات متداول
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-dark">
+                  ارتباط با ما
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="dark-overlay">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            تک شاپ
+          </a>
+
+          <button class="navbar-toggler p-0 border-0">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="navbar-nav d-none d-md-flex mr-auto main-links pl-2">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a href="catagories.html" class="nav-link">محصولات</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="products.html" class="nav-link dropdown-toggle" data-toggle="dropdown">دسته بندی</a>
+
+              <ul class="dropdown-menu text-right">
+                <a href="mobile.html" class="dropdown-item">
+                  موبایل
+                </a>
+                <a href="laptop.html" class="dropdown-item">
+                  رایانه
+                </a>
+                <a href="console.html" class="dropdown-item">
+                  کنسول بازی
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a href="camera.html" class="dropdown-item">
+                  دوربین
+                </a>
+                <a href="monitor.html" class="dropdown-item">
+                  نمایشگر
+                </a>
+                <a href="speaker-headphone.html" class="dropdown-item">
+                  هدفون و بلندگو
+                </a>
+                <a href="spare.html" class="dropdown-item">
+                  لوازم جانبی
+                </a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">بلاگ</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-none d-md-flex pr-2">
+            <li class="nav-item ml-3 shop-bag">
+              <a href="shop-list.html" class="nav-link">
+                <i class="fa fa-shopping-bag fa-2x"></i>
+              </a>
+              <div class="notification badge badge-primary">
+                1
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="login.html.html" class="nav-link">
+                <i class="fa fa-user-o fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul id="mobile-side-menu" class="side-overlay">
+        <div class="overlay-content">
+          <a href="#" class="close-side-menu">&times;</a>
+          <div class="fix-right-top">
+            <div class="shop-bag">
+              <a href="shop-list.html" class="nav-link text-white">
+                <i class="fa fa-shopping-bag fa-2x"></i>
+              </a>
+              <div class="notification badge badge-primary">
+                1
+              </div>
+            </div>
+
+            <a href="login.html" class="nav-link text-white">
+              <i class="fa fa-user-o fa-2x"></i>
+            </a>
+
+          </div>
+
+          <li class="side-item">
+            <a href="index.html" class="side-link nav-link border-hover-primary">خانه</a>
+          </li>
+          <li class="side-item">
+            <a href="catagories.html" class="side-link nav-link border-hover-primary">محصولات</a>
+          </li>
+          <li class="side-item">
+            <a href="blog.html" class="side-link nav-link border-hover-primary">بلاگ</a>
+          </li>
+
+          <li class="side-item">
+            <a href="about.html" class="side-link nav-link border-hover-primary active">درباره ما</a>
+          </li>
+
+          <li class="side-item">
+            <a href="contact.html" class="side-link nav-link border-hover-primary">ارتباط با ما</a>
+          </li>
+        </div>
+      </ul>
+
+      <section id="showcase"
+        class="text-center text-white d-flex flex-column align-items-center justify-content-center">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <h1 class="border-bottom border-white mb-4 pb-4">درباره ما</h1>
+              <p class="lead mb-4">
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح
+                سفارش گرفته شده استفاده می نماید
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <section id="services" class="text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="service-icon bg-primary text-white mx-auto mb-3">
+                <i class="fa fa-bolt fa-3x"></i>
+              </div>
+              <h3>سرعت بالا</h3>
+              <p class="lead">
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح
+                سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="service-icon bg-info text-white mx-auto mb-3">
+                <i class="fa fa-bar-chart fa-3x"></i>
+              </div>
+              <h3>آمار دقیق</h3>
+              <p class="lead">
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح
+                سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="service-icon bg-dark text-white mx-auto mb-3">
+                <i class="fa fa-truck fa-3x"></i>
+              </div>
+              <h3>تحویل در منزل</h3>
+              <p class="lead">
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح
+                سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="service-icon bg-success text-white mx-auto mb-3">
+                <i class="fa fa-shopping-cart fa-3x"></i>
+              </div>
+              <h3>خرید آسان</h3>
+              <p class="lead">
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح
+                سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="what-we-do" class="pb-5">
+    <div class="container">
+      <h1 class="mb-3">
+        ما چکار می کنیم
+      </h1>
+      <p>
+        طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش
+        گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+        طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش
+        گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+      </p>
+      <p>
+        طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش
+        گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.
+      </p>
+    </div>
+  </section>
+
+  <section id="testomonial-section" class="p-4 bg-primary text-white">
+    <div class="container">
+      <h2 class="text-center">نظرات</h2>
+      <div class="row">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی
+                  طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن
+                  باشد
+                </p>
+
+                <footer class="blockquote-footer text-light">
+                  <small> حسن طاهریان</small>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی
+                  طرح سفارش گرفته شده استفاده می نماید
+                </p>
+
+                <footer class="blockquote-footer text-light">
+                  <small>جان دو</small>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی
+                  طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع
+                </p>
+
+                <footer class="blockquote-footer text-light">
+                  <small>ایمان طاهری</small>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="bg-dark py-5 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mx-auto">
+        </div>
+      </div>
+      <section>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <h3>تک شاپ</h3>
+            <p class="text-muted">
+              طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و 
+            </p>
+
+            <ul class="contact-info pr-1">
+              <li class="info-item">
+                <span class="text-primary">
+                  ایمیل: 
+                </span>
+                <a href="#" class="info-link text-muted">
+                  tech@shop.com
+                </a>
+              </li>
+              <li class="info-item">
+                <span class="text-primary">
+                  تماس: 
+                </span>
+                <a href="#" class="info-link text-muted">
+                  303-795-00928
+                </a>
+              </li>
+              <li class="info-item">
+                <span class="text-primary">
+                  آدرس: 
+                </span>
+                <a href="#" class="info-link text-muted">
+                  تهران جردن
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>راهنمای خرید از تک شاپ</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">نحوه ثبت سفارش</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">شیوه ارسال سفارش</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">پرداخت با بیت کوین</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">متد های پرداخت</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h5>خدمات مشتریان</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">مرکز تماس</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">قوانین سایت</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">حریم خصوصی</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">نقشه سایت</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h5>همکاری با تک شاپ</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">فروش در تک شاپ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-muted">فرصت های شغلی</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-muted">تماس با تک شاپ</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link text-muted">درباره تک شاپ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="border-y bg-white"></div>
+      <section class="text-center">
+        <h4 class="mb-3 text-center">ما را در شبکه های اجتماعی دنبال کنید</h4>
+        <section class="media-icons d-flex justify-content-center mb-4">
+          <a href="https://twitter.com" class="text-dark ml-3 twitter">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://youtube.com" class="text-dark ml-3">
+            <i class="fa fa-youtube fa-2x"></i>
+          </a>
+          <a href="https://instagram.com" class="text-dark ml-3 instagram">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://linkedin.com" class="text-dark ml-3 linkedin">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://pinterest.com" class="text-dark">
+            <i class="fa fa-pinterest fa-2x"></i>
+          </a>
+        </section>
+        <h4>
+          &copy; TechShop 2020
+        </h4>
+        <h6>تمامی حقوق محفوظ می باشد</h6>
+      </section>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+  <script src="js/jquery.smooth-scroll.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/side.js"></script>
+  <script>
+      $('.slider').slick({
+    infinite: true,
+    slideToShow: 1,
+    slideToScroll: 1
+  });
+  </script>
+</body>
+
+</html>

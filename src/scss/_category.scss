@@ -1,0 +1,11 @@
+.filter-keyword {
+  display: inline-block;
+  .close-filter {
+    font-size: 1.2rem;
+    padding: 2;
+
+    &:hover {
+      color: $bg-primary !important;
+    }
+  }
+}
